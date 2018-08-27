@@ -31,8 +31,7 @@
     "glob": "^7.0.3",
     "lodash": "^4.6.1",
     "propprop": "^0.3.0",
-    "through2": "^2.0.1",
-    "wiredep-cli": "^0.1.0"
+    "through2": "^2.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
