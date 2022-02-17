@@ -39,6 +39,7 @@ function wiredep(opts) {
     ('detectable-file-types', [])
     ('dev-dependencies', opts.devDependencies)
     ('exclude', Array.isArray(opts.exclude) ? opts.exclude : [ opts.exclude ])
+    ('sortedDependenciesReferenceList', Array.isArray(opts.sortedDependenciesReferenceList) ? opts.sortedDependenciesReferenceList : [ opts.sortedDependenciesReferenceList ])
     ('file-types', mergeFileTypesWithDefaults(opts.fileTypes))
     ('global-dependencies', helpers.createStore())
     ('ignore-path', opts.ignorePath)
